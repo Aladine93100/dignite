@@ -19,6 +19,22 @@ footer {
   font-family: 'Dosis', sans-serif;
 }
 
+.navbar {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+.pull-left {
+  width: 40%;
+}
+
+.text-intro {
+  margin-top: 25px;
+}
 /*
  * Off Canvas
  * --------------------------------------------------
@@ -64,4 +80,64 @@ footer {
 
 .article1, .article2, .article3, .article4 {
   font-family: 'Dosis', sans-serif;
+  color: white;
+}
+
+.media {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 0px;
+
+}
+
+.media-heading {
+  margin-top: 30px
+}
+
+.list-group-item {
+  background-color: white;
+}
+
+.list-group-item:hover {
+  background-color: #1AFF23 !important; 
+}
+
+.panel {
+  margin-top: 0px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-style: solid;
+  border-color: #1AFF23;
+  background-color: rgba(255,255,255,0.5);
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+
+}
+
+.img-passeport {
+  margin-right: 350px;
+  margin-left: 350px;
+}
+
+.ali_wahid {
+  color: #1AFF23 !important;
+}
+
+.facebook {
+  width: 10%;
+}
+
+/* articles */
+
+.titre-articles {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+
+}
+
+.panel-article {
+  margin-left: 150px;
+  margin-right: 150px;
 }

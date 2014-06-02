@@ -1,17 +1,21 @@
-  <body>
+<body>
+
     <div class="container">
-
-      <div class="row row-offcanvas row-offcanvas-right">
-
-        <div class="col-xs-12 col-sm-9">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
-          <div class="jumbotron">
-            <h2>J -4 : Direction le Tchad !</h2>
-            <p>Le Moyen-Orient et l'Afrique : deux zones géographiques secouées par des conflits armés. Portés par le désir de rendre une dignité à ces populations nous préparons notre départ au Tchad et au Liban. Sur ce blog nous vous racontons tout: les préparatifs avant le départ et les péripéties sur place !</p>
+          <div class="media">          
+            <div class="media-body">
+              <div class="pull-left">
+                <div class="thumbnail">
+                  <%= image_tag "Enfant2.JPG" %>
+                </div>
+              </div>
+              <div class="text-intro">
+               <h2 class="text-center">J -4 : Direction le Tchad !</h2>
+                <h4>Le Moyen-Orient et l'Afrique : deux zones géographiques secouées par des conflits armés. Portés par le désir de rendre une dignité à ces populations nous, Wahid et Ali, préparons notre départ au Tchad et au Liban. Via notre blog vous allez prendre part au voyage : les préparatifs avant le départ et les péripéties sur place. </br>
+                </br>
+                Voici notre carnet de bord qui est plus une immersion dans notre mission qu'un vecteur d'autosatisfaction pour notre égo !</h4>
+            </div>
           </div>
-
+        </div>
           <hr>
 
           <div class="row">
@@ -20,46 +24,19 @@
             <div class="thumbnail">
               <%= image_tag "siège.JPG" %>
             </div>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <h4>“ Ali, j’aimerai t’emmener avec moi pour une mission humanitaire” me dit Wahid au milieu de notre discussion. J’avale une gorgée de mon verre de thé en fronçant les sourcils. J’ai déjà participé à des maraudes et..."</h4>
+              <p><a class="btn btn-default" role="button" <%= link_to "Lire", articles_index_path %> </a></p>
             </div><!--/span-->
             <div class="article2 col-md-6">
               <h2>Aïe ça pique !</h2>
               <div class="thumbnail">
               <%= image_tag "vaccin.jpg" %>
               </div>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="article3 col-6 col-sm-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="article4 col-6 col-sm-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <h4>Pour l'obtention du visa, les autorités tchadienne demande la vaccination contre la fièvre jaune. Alors c'est simple, le grand dadet que je suis flippe grave des piqures. D'ailleurs, la quasi totalité de mes vaccins ne sont pas à jour...bon j'avoue que je me méfie aussi de tout ce qui est pharmaceutique depuis le scandale du vaccin contre la grippe aviaire.  </h4>
               <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div><!--/span-->
           </div><!--/row-->
         </div><!--/span-->
-
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-          <div class="list-group">
-            <a class="list-group-item" <%= link_to "Reseaux sociaux", root_path %> </a>
-            <a class="list-group-item" <%= link_to "Notre périple", root_path %> </a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-          </div>
-        </div><!--/span-->
-      </div><!--/row-->
-
-      <hr>
 
     </div><!--/.container-->
 
