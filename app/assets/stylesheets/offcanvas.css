@@ -17,6 +17,7 @@ footer {
 .jumbotron {
   padding: 10px;
   font-family: 'Dosis', sans-serif;
+
 }
 
 .navbar {
@@ -32,8 +33,19 @@ footer {
   width: 40%;
 }
 
+.intro {
+  margin-left: 30px; 
+  margin-right: 30px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 0px;
+  color: white;
+}
+
 .text-intro {
-  margin-top: 25px;
+  margin-top: 45px;
 }
 /*
  * Off Canvas
@@ -83,13 +95,15 @@ footer {
   color: white;
 }
 
-.media {
-  background-color: white;
+.debut, .piqure, .wahid, .doute {
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: rgba(0,0,0,0.5);
   padding: 10px;
   border-radius: 10px;
   font-family: 'Dosis', sans-serif;
   margin-top: 0px;
-
+  color: white;
 }
 
 .media-heading {
@@ -140,4 +154,40 @@ footer {
 .panel-article {
   margin-left: 150px;
   margin-right: 150px;
+}
+
+.well {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: 'Dosis', sans-serif;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  padding: 10px;
+
+}
+
+.vaccin {
+  width: 40%;
+}
+
+.orsay {
+  background-color: white;
+  color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.syrie {
+  background-color: white;
+  color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.fb {
+  width: 50px;
 }
